@@ -1,0 +1,64 @@
+
+.center{
+  text-align: center;
+}
+
+
+
+.box {
+  width:1200px;
+  margin: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 900px) {
+
+  
+  html body {
+    width: auto;
+    height: auto;
+ 
+   }
+
+ 
+
+  .box {
+    width:350px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .add {
+        width: auto;
+        height: auto;
+        background-image: url("images/background.jpg");
+    }
+  
+    .add {
+      font-size: 10px;
+      margin-top: 60px;
+      color:lightblue;
+    }
+  
+  }
+      
+  
+  
+  
+    .add {
+       text-align: center;
+        background-image: url("images/background.jpg");
+       padding: 180px;
+  
+       
+    }
